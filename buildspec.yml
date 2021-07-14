@@ -22,5 +22,6 @@ artifacts:
     files:
         - 'css/*'
         - 'img/*'
-        - 'index.html'        
+        - 'index.html'
+        - 'appspec.yml'        
     name: my-webpage-artifacts
