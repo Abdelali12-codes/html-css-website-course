@@ -20,5 +20,7 @@ phases:
             - echo "we are in the post build phase"
 artifacts:
     files:
-        - '**/*'        
+        - 'css/*'
+        - 'img/*'
+        - 'index.html'        
     name: my-webpage-artifacts
