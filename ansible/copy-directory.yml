@@ -1,5 +1,7 @@
 - name: ansible copy directory content
   hosts: all
+  become: yes
+  become_user: root
   tasks:
 
     - name: copy the directory
