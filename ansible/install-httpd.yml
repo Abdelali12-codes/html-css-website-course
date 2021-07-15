@@ -1,0 +1,17 @@
+- name: playbook install httpd apache server
+  hosts: all
+  become: yes
+  become_user: root
+  tasks:
+
+    - name: ensure apache installed
+      yum:
+       name: httpd
+       state: latest
+
+    - name: ensure apache runiing
+      service:
+         name: httpd
+         state: started
+
+

@@ -1,0 +1,12 @@
+- name: ansible copy directory content
+  hosts: all
+  tasks:
+
+    - name: copy the directory
+      copy:
+         src: ~/opt/webapp/
+         destination: /var/www/html
+         owner: apache
+         group: apache
+         mode: 0644
+
