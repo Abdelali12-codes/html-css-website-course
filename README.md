@@ -4,7 +4,7 @@ Build a beatiful HTML/CSS website. Code for the scotch.io course.
 
 # instructions to install the codedeploy agent
 
-## !/bin/bash
+# !/bin/bash
 ### sudo yum update -y
 ### sudo yum install -y httpd
 ### sudo service httpd start
